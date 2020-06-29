@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<settings>
+
+  <!-- for detailed info about the settings see http://webgrabplus.com/documentation/webgrabconfigxml -->
+  <filename>guide.xml</filename>
+  <mode></mode>
+  <postprocess grab="y" run="n">mdb</postprocess>
+  <user-agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:29.0) Gecko/20100101 Firefox/29.0</user-agent>
+  <logging>on</logging>
+  <retry time-out="5">4</retry>
+  <timespan>0</timespan>
+  <update>f</update>
+  
+  <!--
+            replace the next dummy channel entry with the channels you want.
+			You can look into the installed siteini.pack folder on your computer
+			
+			For the latesr version.
+			see http://webgrabplus.com/epg-channels for the avaliable sites/channels
+			
+<channel update="i" site="netcombo.com.br" site_id="408" xmltv_id="Band SP SD">Band SP SD</channel>
+<channel update="i" site="netcombo.com.br" site_id="408" xmltv_id="Band SP HD">Band SP HD</channel>
+<channel update="i" site="netcombo.com.br" site_id="1022" xmltv_id="Band News SD">Band News SD</channel>
+<channel update="i" site="netcombo.com.br" site_id="1022" xmltv_id="Band News HD">Band News HD</channel>
+<channel update="i" site="netcombo.com.br" site_id="545" xmltv_id="Band HD">Band HD</channel>
+<channel update="i" site="netcombo.com.br" site_id="545" xmltv_id="Band HD">Band HD</channel>
+<channel update="i" site="tvmagazine.com.br" site_id="band-sports/BSP" xmltv_id="Band Sports SD">Band Sports SD</channel>
+<channel update="i" site="netcombo.com.br" site_id="1095" xmltv_id="Band Sports HD">Band Sports HD</channel>
+<channel update="i" site="netcombo.com.br" site_id="1095" xmltv_id="Band Sports Full HD">Band Sports Full HD</channel>
+<channel update="i" site="netcombo.com.br" site_id="1158" xmltv_id="Cultura SD">Cultura SD</channel>
+<channel update="i" site="netcombo.com.br" site_id="1044" xmltv_id="Cultura HD">Cultura HD</channel>
+<channel update="i" site="netcombo.com.br" site_id="1044" xmltv_id="Cultura FHD">Cultura FHD</channel>
+<channel update="i" site="netcombo.com.br" site_id="430" xmltv_id="Futura SD">Futura SD</channel>
+<channel update="i" site="netcombo.com.br" site_id="430" xmltv_id="Futura HD">Futura HD</channel>
+<channel update="i" site="tvplus.com.br.E" site_id="RTV" xmltv_id="RedeTV! HD">RedeTV! HD</channel>
+<channel update="i" site="tvplus.com.br.E" site_id="RTV" xmltv_id="RedeTV! SD">RedeTV! SD</channel>
+<channel update="i" site="tvmagazine.com.br" site_id="sbt-sp/SBP" xmltv_id="SBT SP SD">SBT SP SD</channel>
+<channel update="i" site="tvmagazine.com.br" site_id="sbt-sp-hd/SHD" xmltv_id="SBT SP HD">SBT SP HD</channel>
+<channel update="i" site="tvmagazine.com.br" site_id="sbt-sp/SBP" xmltv_id="SBT SP Full HD">SBT SP Full HD</channel>
+
+</settings>
